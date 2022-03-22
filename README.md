@@ -1,7 +1,7 @@
 # Мій сайт
 
 
-__Кісіля Дмитра__
+__Kisil Dmytro__
 
 # Hinkal4ik.github.io
 
