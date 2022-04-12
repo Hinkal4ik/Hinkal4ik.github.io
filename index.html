@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Сайт веб</title>
+        <title>Сайт web-студії "Web-DECO"</title>
+        <script src="js/clock1.js"></script>
         <style>
             .shadowtext{
                 text-shadow: 1px 3px 2px white, 0 0 1em red;
@@ -35,6 +36,11 @@
             }
 
         </script>
+        <script>
+            window.onload = function(){
+                setInterval(clockPainting,1000);
+            }
+        </script>
     </head>
     <body background="images/bg.jpg">       
         <table border="1" align="center" cellpadding="10">
@@ -55,7 +61,7 @@
             </tr>
             <tr>
             <td width="30%" valign="top" >
-             
+<center><canvas id="canvas" height="120" width="120"></canvas></center>
              <font size="5" color="navy"><h2>Новини</h2></font>
                 <font size="5">
                     <ul>
@@ -69,7 +75,7 @@
                 </font>
                 <hr>
             <h1 align="center"><font color="green">Реєстрація</font></h1>
-                <form action="forma.php" method="post" onsubmit=" return send() ;">
+                <form action="forma.php" method="post" onsubmit =" return send() ;">
                 <table align="center" bgcolor="#ccc">
                     <tr>
                         <td><font color="green">Прізвище</font>:</td>
